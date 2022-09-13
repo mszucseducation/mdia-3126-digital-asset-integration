@@ -1,7 +1,9 @@
 import React from "react"
 
-function ButtonArea() {
-    return <div>My name is Monika</div>
+function ButtonArea({
+    name="default"
+}) {
+    return <button>This is {name}'s button</button>
   }
   
 export default ButtonArea

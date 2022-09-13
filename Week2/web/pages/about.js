@@ -8,8 +8,8 @@ import {Wrapper, FlexCont} from '../styles/globals'
 export default function About() {
   return (
     <Wrapper>
-        <FlexCont>
-        I love to eat donuts.
+        <FlexCont color="orange">
+        About Page
         </FlexCont>
     </Wrapper>
   )

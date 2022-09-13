@@ -4,6 +4,8 @@ import Image from 'next/image'
 import styled from 'styled-components'
 
 import { FlexCont, Wrapper } from '../styles/globals';
+import ButtonArea from '../components/Button';
+
 
 
 export default function Home() {
@@ -11,7 +13,7 @@ export default function Home() {
     <Wrapper>
       hi
       <FlexCont color="beige">
-        My name is Monika
+        <ButtonArea name={"Monika"}/>
       </FlexCont>
     </Wrapper>
   )
