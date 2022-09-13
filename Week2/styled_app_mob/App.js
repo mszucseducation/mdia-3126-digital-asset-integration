@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import ButtonHeader from './components/Buttons';
 import {Wrapper, FlexCont} from './styles/globals';
 
 export default function App() {
@@ -7,7 +8,9 @@ export default function App() {
     <Wrapper>
       
       <Text>Hi</Text>
-      <FlexCont color="teal">I love donuts</FlexCont>
+      <FlexCont color="teal">
+        <ButtonHeader name={"Monika"}/>
+      </FlexCont>
     </Wrapper>
   );
 }
