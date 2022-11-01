@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Digital Design and Development Diploma",
+        "content": "Teaching courses in UI/UX, graphics, and website development."
+    },
+    {
+        "id": 2,
+        "title": "Bachelor of Business Administration",
+        "content": "Teaching courses in economics, accounts and data analysis."
+    },
+    {
+        "id": 3,
+        "title": "Applied Software Development Certificate",
+        "content": "Teaching courses in Java, C and Python."
+    }
+]
